@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'ClashDisplay';
+
+  src: url('./assets/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+        url('./assets/fonts/ClashDisplay-Variable.woff') format('woff'),
+        url('./assets/fonts/ClashDisplay-Variable.ttf') format('truetype');
+
+  font-weight: 200 700;
+
+  font-display: swap;
+
+  font-style: normal;
+}
+
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
@@ -522,25 +536,35 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.font-clashDisplay {
+  font-family: ClashDisplay, Franklin Gothic Medium;
+}
+
+.font-nunito {
+  font-family: Nunito, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-\[3rem\] {
+  font-size: 3rem;
 }
 
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+.text-\[48px\] {
+  font-size: 48px;
 }
 
-.text-green-600 {
-  --tw-text-opacity: 1;
-  color: rgb(22 163 74 / var(--tw-text-opacity));
+.font-medium {
+  font-weight: 500;
 }
 
-.underline {
-  text-decoration-line: underline;
+.leading-\[1\.2em\] {
+  line-height: 1.2em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
